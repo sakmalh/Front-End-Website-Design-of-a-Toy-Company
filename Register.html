@@ -1,0 +1,196 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Frontend Bootcamp</title>
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Megatron</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.php">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.php">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cntus.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Abtus.html">About Us</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sign In</a>
+            </li>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Megatron</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <li class="nav-item">
+              <a class="nav-link active" href="Register.html">Register</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+      <section class="bg-light text-dark p-3 text-center text-sm-start">
+        <div class="container pb-2">
+          <div class="d-sm-flex align-items-center justify-content-between">
+            <div>
+              <h1>Create your own <span class="text-primary">Megatron</span> Account</h1>
+              <p class="lead my-4">
+                Sign up for a free Account and win exciting gifts and rewards exclusive
+                for our registered user.
+              </p>
+            </div>
+            <img class="img-fluid w-50 d-none d-sm-block"src="images\reg1.svg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-light text-dark text-sm-start align-items-center ">
+        <div class="container-fluid p-0 align-items-center p-4 px-0">
+          <div class="row bg-image p-5 shadow-1-strong rounded mb-5 text-white"
+          style="background-image: url('images//W1.jpg');">
+          <div class="container bg-white text-dark p-3 shadow-1-strong rounded mb-5 align-items-center">
+            <form>
+              <div class="row pt-2">
+                <div class="col-sm-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="col-sm-6 ">
+                  <label for="inputPassword4">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group pt-3">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="form-group pt-3">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="row pt-3">
+                <div class="col-sm-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-sm-4">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-sm-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              <div class="form-group pt-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Remember Me
+                  </label>
+                </div>
+              </div>
+              <div class="btn p-0 pt-3 ">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+
+            </form>
+          </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <section class="bg-warning text-dark p-3 text-center text-sm-start">
+        <div class="container-fluid">
+          <div class="container-icons p-3 text-center">
+            <div class="row">
+              <div class="col-2">
+                <a href="https://www.facebook.com/"><i class="bi bi-facebook" style="font-size:2.2rem"></i></a>
+              </div>
+              <div class="col-2">
+                <a href="https://www.instagram.com/"><i class="bi bi-instagram" style="font-size:2.2rem"></i></a>
+              </div>
+              <div class="col-2">
+                <a href="https://www.twitter.com/"><i class="bi bi-twitter" style="font-size:2.2rem"></i></a>
+              </div>
+              <div class="col-2">
+                <a href="https://www.whatsapp.com/"><i class="bi bi-whatsapp" style="font-size:2.2rem"></i></a>
+              </div>
+              <div class="col-2">
+                <a href="https://www.youtube.com/"><i class="bi bi-youtube" style="font-size:2.2rem"></i></a>
+              </div>
+              <div class="col-2">
+                <a href="https://www.google.com/"><i class="bi bi-google" style="font-size:2.2rem"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <p class="text-center p-2">© 2021 Megatron (Sri Lanka) Ltd. All Rights reserved. Megatron, Megatron Toys are registered trademarks of Megatron (Sri Lanka) Ltd.<br>
+               Use of this site signifies your acceptance of Megatron (Sri Lanka) Website Terms and Conditions and Privacy Policy<br>
+               Megatron (Sri Lanka) Ltd. Sri Dalada Veediya, Kandy 20000
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <script type="text/javascript" src="js\bootstrap.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      </body>
+</html>

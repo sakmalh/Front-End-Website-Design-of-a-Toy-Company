@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+
+@media only screen and (max-width: 20px) {  
+}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
+
+.full-width-banner-image img {
+    width: 100%;
+}
+
+
+.full-width-banner-image {
+   margin-bottom: 36px;
+}
+
+
+html, body{
+  font-family: "Poppins";
+}
+
+.navbar-brand {
+  font-family: "Bungee";
+  font-size: 2.2rem;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.nav-item:hover{
+  border-width: 2px 0px 0px 0px;
+  border-style: solid;
+  border-color: White;
+}
+
+.modal-title{
+  font-family: "Bungee";
+  font-size: 1.5rem;
+}
+
+.navbar .dropdown-menu{
+  font-size: 1.1rem;
+  border-radius: 1px;
+  border-color: #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+
+.navbar .navbar-nav .dropdown-menu a {
+	padding: 8px 20px;
+	line-height: normal;
+}
+
+.map-container-5{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+@media (min-width: 544px) {
+  .text-responsive {
+    font-size: calc(30% + 1vw + 1vh);
+  }
+}

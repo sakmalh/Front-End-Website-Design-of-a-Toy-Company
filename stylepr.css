@@ -1,0 +1,272 @@
+a,
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-products {
+    padding: 80px 0 54px;
+}
+
+.section-products .header {
+    margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+}
+
+.section-products .header h2 {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: #444444;
+}
+
+.section-products .single-product {
+    margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+    position: relative;
+    height: 290px;
+    max-height: 290px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+    transform: scale(1.2,1.2) rotate(5deg);
+}
+
+.section-products #product-1 .part-1::before {
+    background: url("primg/1.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+    background: url("primg/2.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-3 .part-1::before {
+    background: url("primg/3.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-4 .part-1::before {
+    background: url("primg/4.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-5 .part-1::before {
+    background: url("primg/5.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-6 .part-1::before {
+    background: url("primg/6.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-7 .part-1::before {
+    background: url("primg/7.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-8 .part-1::before {
+    background: url("primg/8.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-9 .part-1::before {
+    background: url("primg/9.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-10 .part-1::before {
+    background: url("primg/10.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-11 .part-1::before {
+    background: url("primg/11.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-12 .part-1::before {
+    background: url("primg/12.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-13 .part-1::before {
+    background: url("primg/13.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-14 .part-1::before {
+    background: url("primg/14.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-15 .part-1::before {
+    background: url("primg/15.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-16 .part-1::before {
+    background: url("primg/16.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-17 .part-1::before {
+    background: url("primg/17.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-18 .part-1::before {
+    background: url("primg/18.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-19 .part-1::before {
+    background: url("primg/19.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-20 .part-1::before {
+    background: url("primg/20.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-21 .part-1::before {
+    background: url("primg/21.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-22 .part-1::before {
+    background: url("primg/22.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-23 .part-1::before {
+    background: url("primg/23.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-24 .part-1::before {
+    background: url("primg/24.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-25 .part-1::before {
+    background: url("primg/25.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-26 .part-1::before {
+    background: url("primg/26.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.section-products #product-27 .part-1::before {
+    background: url("primg/27.jpg") no-repeat center;
+    background-size: cover;
+    transition: all 0.3s;
+}
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    background-color: #fe302f;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+    left: 0;
+    background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+    position: absolute;
+    bottom: -41px;
+    left: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product .part-2 .product-title {
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-title:hover {
+    color: #ffcc00;
+}
+
+.section-products .single-product .part-2 h4 {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+    position: relative;
+    padding: 0 7px;
+    margin-right: 2px;
+    opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #444444;
+    transform: translateY(-50%);
+}
